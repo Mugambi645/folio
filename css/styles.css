@@ -22,7 +22,7 @@
   background-color: purple;
 }
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(360deg);
+  transform: rotateY(180deg);
 }
 
 
@@ -42,4 +42,7 @@
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+.tap{
+  float:right
 }
