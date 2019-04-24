@@ -6,35 +6,72 @@
 
   <title>portfolio</title>
   <body>
-    <div class="pata"  >
-      <center><h1>portfolio</h1></center>
-    </div>
-    <div class="pad">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="Yosemite.jpg" alt="yosemite" style="width:300px;height:300px;">
-          </div>
-          <div class="flip-card-back">
-      <p>This is my personal portfolio and it entails:<br />My education background<br />my job<br />my job experience and<br />my hobbies</p>
-    </div>
-</div>
-</div>
-</div>
-<div class="tap">
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
 
-        <img src="cards.jpeg" alt="cards" style="width:300px;height:300px;">
-  <div class="flip-card-back">
-          <h1>my hobbies</h1>
-          <ul>
-          <li>Listening to music</li>
-          <li>Reading novels</li>
-          <li>Watching movies</li>
-          <li>partying</li>
-          <li>coding</li>
-        <li>socializing</li>
+    <div class="panda">
+      <h1>portfolio</h1>
+    </div>
+    <div class="lone">
+      <style>
+  .container {
+    position: relative;
+    width: 50%;
+  }
 
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 5;
+  }
+
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <img src="Yosemite.jpg" alt="Yosemite" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Patrick mugambi</div>
+        <div class="text">This is my personal portfolio</div>
       </div>
+    </div>
+
+
+<div class="alfa">
+  <div class="container">
+    <img src="drop.jpg" alt="drop" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text">Patrick mugambi</div>
+      <div class="text">This is my personal portfolio</div>
+    </div>
+  </div>
+
+  </body>
+  </html>
